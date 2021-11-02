@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowData">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Here is your information and your meme!"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name1"
+        android:text="name"
+        android:layout_below="@id/title"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/length1"
+        android:text="length"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_below="@id/name1"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/age1"
+        android:text="age"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_below="@id/length1"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wage1"
+        android:text="wage"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_below="@id/age1"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/letter1"
+        android:text="letter"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_below="@id/wage1"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/memeImageView"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:layout_below="@id/letter1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="76dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/memeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show meme"
+        android:padding="20dp"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
